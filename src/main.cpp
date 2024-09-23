@@ -119,9 +119,9 @@ void setup()
   pinMode(LED1, OUTPUT);
   pinMode(LED2, OUTPUT);
   pinMode(LED3, OUTPUT);
-  pinMode(A, INPUT_PULLUP); // Use internal pull-up resistor
-  pinMode(B, INPUT_PULLUP); // Use internal pull-up resistor
-  pinMode(C, INPUT_PULLUP); // Use internal pull-up resistor
+  pinMode(A, INPUT_PULLUP);
+  pinMode(B, INPUT_PULLUP);
+  pinMode(C, INPUT_PULLUP);
 
   // Initial LED states, intially all OFF
   analogWrite(LED1, brightnessLED1);
